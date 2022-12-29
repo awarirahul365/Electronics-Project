@@ -4,7 +4,8 @@
 #define port2 P2
 sbit rs = P1^0;
 sbit rw = P1^1;
-sbit e = P1^2;
+sbit e = P1^3;
+sbit y=P1^2
 char info[70];
 char test[6]={"$GPRMC"};
 char comma_position[15];
